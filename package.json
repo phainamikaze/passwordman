@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "passman": "node app.js"
+    "start": "node app.js"
   },
   "author": "Witsanu Boonmakam",
   "license": "ISC",
   "dependencies": {
-    "node-persist": "0.0.11"
+    "node-persist": "0.0.11",
+    "yargs": "^4.3.2"
   }
 }
